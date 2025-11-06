@@ -8,13 +8,13 @@
       <!-- Carousel Wrapper -->
       <div
         ref="carousel"
-        class="relative flex overflow-x-auto snap-x snap-mandatory scroll-smooth space-x-4 w-screen scrollbar-hide"
+        class="relative flex overflow-x-auto snap-x snap-mandatory scroll-smooth space-x-4 scrollbar-hide w-auto"
       >
         <div
           v-for="(item, index) in categories"
           :key="index"
           :class="[item.bgColor]"
-          class="w-[230px] h-[175px] flex-none snap-start bg-none rounded-lg flex flex-col py-auto justify-center items-center hover:min-h-[190px] hover:bg-[url(../assets/bg-main.png)] hover:bg-cover hover:bg-blend-soft-light"
+          class="w-[230px] h-[175px] flex-none snap-start bg-none rounded-lg flex flex-col py-auto justify-center items-center hover:bg-[url(../assets/bg-main.png)] hover:bg-cover hover:bg-blend-soft-light"
         >
           <img :src="item.imgSrc" alt="Category" class="w-[47px] h-[52px] mb-2" />
           <p class="font-medium">{{ item.name }}</p>
@@ -22,7 +22,7 @@
         </div>
       </div>
     </div>
-    <div id="nav-button" class="hidden md:flex md:gap-2 md:self-end">
+    <div id="nav-button" class="hidden md:flex md:gap-2 md:self-center">
       <button
         @click="prevSlide()"
         class="flex cursor-pointer flex-row items-center gap-2 rounded-full bg-primary-green px-4 py-2"

@@ -8,7 +8,7 @@
         <img src="../assets/logo.png" class="w-50 object-cover" alt="" srcset="" />
       </div>
       <div class="relative">
-        <p class="text-sm text-gray-500">
+        <p class="text-sm text-gray-500 text-center">
           Jl. Prof. DR. Satrio No.7, RT.3/RW.3, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta
           Selatan, Daerah Khusus Ibukota Jakarta 12950
         </p>
@@ -88,7 +88,7 @@
         </div>
       </div>
     </div>
-    <div id="grid-2" class="flex flex-col gap-10">
+    <div id="grid-2" class="flex flex-col gap-10 pl-8">
       <div class="relative">
         <h1 class="text-2xl">Categories</h1>
       </div>
@@ -116,18 +116,18 @@
       </div>
       <div class="relative flex flex-col gap-4">
         <p class="text-sm text-gray-500">
-          Get now free 50% discount for alll products on your first order
+          Get now free 50% discount for all products on your first order
         </p>
-        <div class="flex items-center border border-black rounded-lg overflow-hidden w-80">
+        <div class="flex items-center border border-black rounded-lg overflow-hidden w-60">
           <input
             type="email"
             placeholder="Your email address"
-            class="flex-1 px-3 py-2 focus:outline-none"
+            class="flex-1 px-3 py-2 focus:outline-none w-[10.3rem]"
           />
           <button class="bg-primary-green text-white px-4 py-2 font-semibold">SEND</button>
         </div>
         <div class="flex gap-3 items-center">
-          <div class="w-8 h-8 rounded-full">
+          <div class="w-8 h-8 rounded-full flex">
             <svg
               viewBox="0 0 24 24"
               fill="#fffff"

@@ -16,7 +16,6 @@
   <section id="footer" class="px-10 py-10 md:px-48 md:py-10">
     <FooterComponent />
   </section>
-  <p class="text-center text-gray-400 text-sm">&copy; ELEMES ID. ALL RIGHTS RESERVED</p>
   <FooterNavbarComponent />
 </template>
 

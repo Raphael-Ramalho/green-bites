@@ -21,23 +21,11 @@
         <img :src="item.stars" alt="" class="object-cover w-20" />
       </div>
     </div>
-    <div id="button" class="self-center">
-      <ButtonComponent
-        outlineColor="hover:outline-1"
-        bgColor="bg-primary-green"
-        textColor="text-white"
-        hoverBg="hover:bg-white"
-        hoverOutline="hover:outline-primary-green"
-        hoverText="hover:text-primary-green"
-        >ALL Receipt</ButtonComponent
-      >
-    </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
-import ButtonComponent from '@/components/ui/ButtonComponent.vue'
 import Four from '@/assets/icons/four-stars.png'
 import Three from '@/assets/icons/three-stars.png'
 import Five from '@/assets/icons/five-stars.png'
