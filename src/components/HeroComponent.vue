@@ -4,7 +4,7 @@
     class="relative grid px-10 py-10 grid-cols-1 gap-5 md:grid-cols-[1fr_2fr] md:px-48 md:gap-10"
   >
     <div id="hero-title" class="flex text-primary-green self-end md:order-1">
-      <h1 class="text-5xl md:text-7xl font-medium">Good Food Us <br />Good Mood</h1>
+      <h1 class="text-5xl md:text-7xl font-medium">Good Food <br />Good Mood</h1>
     </div>
     <div id="hero-image " class="row-span-2 md:justify-self-end md:order-2">
       <img src="@/assets/green-salat-fix.png" class="h-full bg-cover w-70 md:w-2xl" alt="" />
